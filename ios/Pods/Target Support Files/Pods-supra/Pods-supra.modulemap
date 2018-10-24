@@ -1,0 +1,6 @@
+module Pods_supra {
+  umbrella header "Pods-supra-umbrella.h"
+
+  export *
+  module * { export * }
+}

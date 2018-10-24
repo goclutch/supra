@@ -86,7 +86,7 @@ PODS:
     - EXPermissionsInterface
   - EXPermissionsInterface (1.1.0):
     - EXCore
-  - ExpoKit/Core (2.8.4):
+  - ExpoKit/Core (2.8.3):
     - Amplitude-iOS (~> 3.8)
     - Analytics (~> 3.5)
     - AppAuth (~> 0.4)
@@ -182,6 +182,10 @@ PODS:
   - lottie-ios (2.5.2)
   - React (0.55.4):
     - React/Core (= 0.55.4)
+  - react-native-ble-plx (1.0.0):
+    - React
+    - react-native-ble-plx-swift
+  - react-native-ble-plx-swift (1.0.0)
   - React/ART (0.55.4):
     - React/Core
   - React/Core (0.55.4):
@@ -256,7 +260,7 @@ DEPENDENCIES:
   - EXPaymentsStripe (from `../node_modules/expo-payments-stripe/ios`)
   - EXPermissions (from `../node_modules/expo-permissions/ios`)
   - EXPermissionsInterface (from `../node_modules/expo-permissions-interface/ios`)
-  - ExpoKit/Core (from `http://github.com/expo/expo.git`, tag `ios/2.8.4`)
+  - ExpoKit/Core (from `http://github.com/expo/expo.git`, tag `ios/2.8.3`)
   - EXPrint (from `../node_modules/expo-print/ios`)
   - EXReactNativeAdapter (from `../node_modules/expo-react-native-adapter/ios`)
   - EXSegment (from `../node_modules/expo-analytics-segment/ios`)
@@ -265,6 +269,8 @@ DEPENDENCIES:
   - EXSMS (from `../node_modules/expo-sms/ios`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - react-native-ble-plx (from `../node_modules/react-native-ble-plx`)
+  - react-native-ble-plx-swift (from `../node_modules/react-native-ble-plx`)
   - React/ART (from `../node_modules/react-native`)
   - React/Core (from `../node_modules/react-native`)
   - React/CxxBridge (from `../node_modules/react-native`)
@@ -359,7 +365,7 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-permissions-interface/ios"
   ExpoKit:
     :git: http://github.com/expo/expo.git
-    :tag: ios/2.8.4
+    :tag: ios/2.8.3
   EXPrint:
     :path: "../node_modules/expo-print/ios"
   EXReactNativeAdapter:
@@ -378,13 +384,17 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
   React:
     :path: "../node_modules/react-native"
+  react-native-ble-plx:
+    :path: "../node_modules/react-native-ble-plx"
+  react-native-ble-plx-swift:
+    :path: "../node_modules/react-native-ble-plx"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 CHECKOUT OPTIONS:
   ExpoKit:
     :git: http://github.com/expo/expo.git
-    :tag: ios/2.8.4
+    :tag: ios/2.8.3
 
 SPEC CHECKSUMS:
   Amplitude-iOS: 4a3c8807b2ea5369dc11e87e23825bff01e5a922
@@ -419,7 +429,7 @@ SPEC CHECKSUMS:
   EXPaymentsStripe: 7b9a230a1ceadd3ef955fca88b5e30d2f35edf6a
   EXPermissions: 1c524493270ba64f494f805b6e0e75d4b498ecb5
   EXPermissionsInterface: 814a15d3259873c39646ed3cfe58bb49160445c1
-  ExpoKit: 8bd26597709ed939c5dd6316bd9902b0d406cb3e
+  ExpoKit: 8e3d34ef65f7c88233b3e1d73a202a0d6e89c736
   EXPrint: 7e89a677edf046516d1c7c812c24e7714f040bdd
   EXReactNativeAdapter: 93f6b26a2bb583e653e5fab04377704840e1a0e8
   EXSegment: 558683a67d8e898448d9a3af71f3b36af7664ce9
@@ -445,9 +455,11 @@ SPEC CHECKSUMS:
   JKBigInteger2: e91672035c42328c48b7dd015b66812ddf40ca9b
   lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
   React: aa2040dbb6f317b95314968021bd2888816e03d5
+  react-native-ble-plx: 7ad27c5a97bdb07ca77cf92badacd990e350c32c
+  react-native-ble-plx-swift: 283d93356064625d8d825b0814203628afe381f0
   Stripe: 76c203e21555089b708e6cbe972a3e3baf1ab4d8
   yoga: a23273df0088bf7f2bb7e5d7b00044ea57a2a54a
 
-PODFILE CHECKSUM: dce34b8b9663f4da92ea69c3544782e1b0eca2c3
+PODFILE CHECKSUM: a3455fc583ff1b09e3fbf3bfb77ad54daa16d643
 
 COCOAPODS: 1.5.3

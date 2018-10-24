@@ -10,10 +10,10 @@
 		<string></string>
 	</dict>
 	<key>EXPO_RUNTIME_VERSION</key>
-	<string>2.8.4</string>
+	<string>2.8.3</string>
 	<key>STANDALONE_CONTEXT_TYPE</key>
 	<string>user</string>
 	<key>developmentUrl</key>
-	<string>exp3c8cbded3bf04630a6a8b647dc8bb293://192.168.1.2:19000</string>
+	<string>exp3c8cbded3bf04630a6a8b647dc8bb293://192.168.1.2:19004</string>
 </dict>
 </plist>
